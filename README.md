@@ -1,12 +1,8 @@
 
 # Table of Contents
 
-1.  [Contains of this repo](#org0d0e966)
+1.  [Contents of this repo](#org0d0e966)
 2.  [Terraform K8s Cluster in GKE](#org09042a6)
-        1.  [Prerequisites](#org45279bd)
-        2.  [Dependencies](#org8ee0988)
-        3.  [Installing](#org9258179)
-    1.  [Terraform destruction](#org6c9260b)
 3.  [Airflow](#org3602e04)
     1.  [Prerequisites](#org20c49db)
     2.  [Dependencies](#org2b7a974)
@@ -16,70 +12,21 @@
     6.  [Accessing to Airflow dashboard](#org959018f)
 4.  [Acknowledgments](#org5427e61)
 
-This repository contains some of the principal resourses that you probably want to use when starts working into the IaC module.
+This repository contains the exercises per Session and all the instructions for the Capstone Project.
 
 
 <a id="org0d0e966"></a>
 
-# Contains of this repo
+# Contents of this repo
 
-    .
-    └── terraforms-templates
-        ├── gcp
-        │   ├── modules
-        │   │   ├── cloudsql
-        │   │   ├── compute-engine
-        │   │   ├── gke
-        │   │   └── vpc
-        │   └── nfs
-        └── kubernetes
+Check the folder of each session to follow the examples and exercises used during class.
 
 
-<a id="org09042a6"></a>
-
-# Terraform K8s Cluster in GKE
-
-The current architecture was implemented following this guide [Provision a GKE Cluster guide](https://learn.hashicorp.com/tutorials/terraform/gke?in=terraform/kubernetes) )
 
 
-<a id="org45279bd"></a>
-
-### Prerequisites
-
--   GCP account configured
--   Kubectl cli
 
 
-<a id="org8ee0988"></a>
-
-### Dependencies
-
--   gcloud cli
--   Cluster Version: 1.20
--   Terraform >= 0.13
-
-
-<a id="org9258179"></a>
-
-### Installing
-
-Go to the directory `gcp/` and execute the following Terraform commands:
-
-    terraform init
-    terraform apply --var-file=terraform.tfvars
-
-Once that the cluster is created (it will took a few minutes), set the kubectl context:
-
-    gcloud container clusters get-credentials $(terraform output -raw kubernetes_cluster_name) --region $(terraform output -raw location)
-
-
-<a id="org6c9260b"></a>
-
-## Terraform destruction
-
-To destroy the EKS cluster with all the services, we run:
-
-    terraform destroy --var-file=terraform.tfvars
+   
 
 **Important notes**
 Remember that you are working with services on the cloud and you are creating the infraestructure to work with between them. Often times, due different conditions, including internet desconections and server problems, some of your services will stay in your Cloud Provider, so, we encourage you to check twice everytime you run this feature and make sure that all the services were shut down properly.
