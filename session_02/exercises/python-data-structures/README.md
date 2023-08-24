@@ -65,45 +65,44 @@ Output:
 
 ### Built-in Data Structures: Arrays, Lists, and Dictionaries
 #### Arrays and Lists:
-a. Write a function to find the second largest element in an array.
-b. Implement a function to reverse an array in-place.
-c. Given two sorted arrays, merge them into a single sorted array.
-d. Implement a function to rotate an array to the right by k steps.
+- Write a function to find the second largest element in an array.
+- Implement a function to reverse an array in-place.
+- Given two sorted arrays, merge them into a single sorted array.
+- Implement a function to rotate an array to the right by k steps.
 
 #### Dictionaries:
-a. Create a dictionary to store the frequency of words in a text document.
-b. Implement a function to find common elements between two lists.
-c. Given a list of tuples representing student names and their scores, convert it into a dictionary with names as keys and scores as values.
-d. Write a program to count the frequency of characters in a string using a dictionary.
+- Create a dictionary to store the frequency of words in a text document.
+- Implement a function to find common elements between two lists.
+- Given a list of tuples representing student names and their scores, convert it into a dictionary with names as keys and scores as values.
+- Write a program to count the frequency of characters in a string using a dictionary.
 
 ### User-defined Data Structures: Stack, Queue, HashMap, Tree, Heaps
 #### Stack:
-a. Implement a stack using lists and write push, pop, and peek methods.
-b. Write a function to check if parentheses in a given string are balanced using a stack.
-c. Create a stack-based calculator that evaluates postfix expressions.
-d. Design a function to reverse a string using a stack.
+- Implement a stack using lists and write push, pop, and peek methods.
+- Write a function to check if parentheses in a given string are balanced using a stack.
+- Create a stack-based calculator that evaluates postfix expressions.
+- Design a function to reverse a string using a stack.
 
 #### Queue:
-a. Implement a queue using lists and define enqueue and dequeue methods.
-b. Write a function to generate binary numbers from 1 to n using a queue.
-c. Implement a circular queue that overwrites oldest items when full.
-d. Use a queue to perform level-order traversal on a binary tree.
+- Implement a queue using lists and define enqueue and dequeue methods.
+- Write a function to generate binary numbers from 1 to n using a queue.
+- Implement a circular queue that overwrites oldest items when full.
+- Use a queue to perform level-order traversal on a binary tree.
 
 #### HashMap:
-a. Create a simple hash map that supports insert, retrieve, and delete operations.
-b. Implement a hash map-based cache with a maximum capacity.
-c. Solve the problem of finding the first non-repeated character in a string using a hash map.
-d. Write a program to detect if two strings are anagrams using hash maps.
+- Create a simple hash map that supports insert, retrieve, and delete operations.
+- Implement a hash map-based cache with a maximum capacity.
+- Solve the problem of finding the first non-repeated character in a string using a hash map.
+- Write a program to detect if two strings are anagrams using hash maps.
 
 #### Tree:
-a. Build a binary search tree (BST) and implement methods for insertion and search.
-b. Write a function to calculate the height of a binary tree.
-c. Perform an in-order traversal of a binary tree using recursion and iteration.
-d. Implement a function to check if a binary tree is a valid BST.
+- Build a binary search tree (BST) and implement methods for insertion and search.
+- Write a function to calculate the height of a binary tree.
+- Perform an in-order traversal of a binary tree using recursion and iteration.
+- Implement a function to check if a binary tree is a valid BST.
 
 #### Heaps:
-a. Implement a min-heap and max-heap using lists.
-b. Write a program to merge k sorted arrays using a min-heap.
-c. Implement a priority queue using a min-heap to manage tasks with different priorities.
-d. Design a heap-based algorithm to find the kth largest element in an array.
-
+- Implement a min-heap and max-heap using lists.
+- Write a program to merge k sorted arrays using a min-heap.
+- Implement a priority queue using a min-heap to manage tasks with different priorities.
+- Design a heap-based algorithm to find the kth largest element in an array.
