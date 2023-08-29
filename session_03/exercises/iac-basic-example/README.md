@@ -1,6 +1,6 @@
-# Basic Google Cloud Storage Bucket Deployment with Terraform
+# Basic Google Cloud Storage Bucket deployment with Terraform
 
-This repository contains a basic terraform files configuration to deploy a single bucket within Google Cloud Platform (GCP) using CLoud Storage service.
+This repository contains a basic terraform files configuration to deploy a single bucket within Google Cloud Platform (GCP) using Cloud Storage service.
 
 ## Requirements
 
@@ -19,19 +19,19 @@ After the previous requirements, follow these steps to deploy the Cloud Storage 
 1. Clone this repository.
 
 2. Go to the folder:
-```shell
+```bash
 cd session_03/exercises/iac-basic-example
 ```
 
 3. Export your service account as a environment variable. This Env Variable will be used as the main one to get the credentials for the GCP Account + Terraform.
-```shell
+```bash
 export GOOGLE_APPLICATION_CREDENTIALS=YOUR-PATH-HERE.json
 ```
 
 4. Create a file with the name `terraform.tfvars` with the same content as `example.tfvars` and modify the variables to your liking taking into account regions and zones with the [Free Tier](https://cloud.google.com/free).
 
 5. Initialize Terraform
-```shell
+```bash
 terraform init
 ```
 
@@ -39,28 +39,28 @@ terraform init
 
 
 6. Check the plan of the resources about to be created. Validate carefuly the configuration of the service and the outputs expected.
-```sh
+```bash
 terraform plan
 ```
 
 ![Terraform Plan](./imgs/terraform_plan.png "Terraform Plan")
 
 7. OPTIONAL - Validate the configuration file.
-```sh
+```bash
 terraform validate
 ```
 
 ![Terraform Validate](./imgs/terraform_validate.png "Terraform Validate")
 
 8. Apply the configuration and create the resources by typing `yes`
-```sh
+```bash
 terraform apply
 ```
 
 ![Terraform Apply](./imgs/terraform_apply.png "Terraform Apply")
 
 9. Finally don't forget to Destroy all the resources deployed. Type `yes`
-```sh
+```bash
 terraform destroy
 ```
 
