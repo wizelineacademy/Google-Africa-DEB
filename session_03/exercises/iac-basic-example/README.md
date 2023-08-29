@@ -67,7 +67,7 @@ terraform destroy
 
 
 ## Acknowledgments
-This solution was based on this guides
+This solution was based on these guides
 
    - [Use Terraform to create storage buckets and upload objects](https://cloud.google.com/storage/docs/terraform-create-bucket-upload-object)
    - [Get Started - Google Cloud](https://learn.hashicorp.com/collections/terraform/gcp-get-started) guide, containing Terraform configuration files to create resources on GCP.
