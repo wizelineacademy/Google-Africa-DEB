@@ -63,6 +63,8 @@ terraform apply
 ```bash
 terraform destroy
 ```
+![Terraform Destroy](./imgs/terraform_destroy.png "Terraform Destroy")
+
 
 ## Acknowledgments
 This solution was based on this guides
