@@ -38,3 +38,9 @@ variable "storage_class" {
   default       = "STANDARD"
   description   = "The type of storage "
 }
+
+variable "environment" {
+  type          = string
+  default       = "dev"
+  description   = "Environment definition"
+}
