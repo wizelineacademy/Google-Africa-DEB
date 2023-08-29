@@ -1,4 +1,4 @@
-# Basic Google CLoud Storage Bucket Deployment with Terraform
+# Basic Google Cloud Storage Bucket Deployment with Terraform
 
 This repository contains a basic terraform files configuration to deploy a single bucket within Google Cloud Platform (GCP) using CLoud Storage service.
 
