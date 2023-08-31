@@ -23,10 +23,16 @@ Follow these steps to deploy Apache Airflow on GCP:
 cd session_02/exercises/airflow-helm-deployment
 ```
 
-3. OPTIONAL: To modify values in `values.yaml` got to
+2.1. OPTIONAL: To modify values in `values.yaml` got to
 
 ```shell
 cd charts/airflow
+```
+
+3. Change the permissions for both `./scripts/deploy.sh` and `./scripts/teradown.sh`
+
+```sh
+chmod +x scripts/deploy.sh scripts/teardown.sh
 ```
 
 4. Run the deployment script before you modify your ENV VARs. To decide what's the best region/zone to use visit [GCP Region Picker](https://cloud.withgoogle.com/region-picker/)

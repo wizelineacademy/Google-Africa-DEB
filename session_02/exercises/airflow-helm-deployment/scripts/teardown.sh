@@ -6,9 +6,7 @@ GCP_PROJECT_REGION="your-gcp-region" # i.e. us-east1
 GCP_PROJECT_ZONE="your-gcp-zone" # i.e. us-east1-b
 GCP_CLUSTER_NAME="your-cluster-name"
 
-KUBE_NAMESPACE="your-namespace-with_version" # i.e. airflow-2_7
-
-AIRFLOW_VOID_STRING=""
+KUBE_NAMESPACE="your-namespace-with_version" # i.e. airflow-27
 
 # Deleting all the helm deployments for airflow 
 helm delete airflow -n $KUBE_NAMESPACE
