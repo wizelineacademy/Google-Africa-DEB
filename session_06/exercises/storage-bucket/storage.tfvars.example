@@ -1,0 +1,5 @@
+project_id  = "keen-diode-400001"
+location    = "US"
+region      = "us-east1"
+zone        = "us-east1-b"
+bucket_name = "africa-deb-bucket-second"
