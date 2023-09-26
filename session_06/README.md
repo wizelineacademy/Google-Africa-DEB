@@ -21,7 +21,7 @@ The diagram describes three principal flows to carry  out, all of these orchestr
 
 1. Airflow deployment on GKE, you can choose the method of your preferences, in this case we will deploy Airflow on GKE based on [session 4](https://github.com/wizelineacademy/Google-Africa-DEB/tree/main/session_04/exercises/airflow-gke).
 
-  Other options can be [session 2](https://github.com/wizelineacademy/Google-Africa-DEB/tree/main/session_04/exercises/airflow-gke) or [session 5](https://github.com/wizelineacademy/Google-Africa-DEB/tree/main/session_05/exercises/DEBootcamp-airflow)
+  Other options can be [session 2](https://github.com/wizelineacademy/Google-Africa-DEB/tree/main/session_02/exercises/airflow-helm-deployment) or [session 5](https://github.com/wizelineacademy/Google-Africa-DEB/tree/main/session_05/exercises/DEBootcamp-airflow)
 
 2. Fetch the sources data files from Public API, this will be carried out by the DAG. We will use 2 sources:
 
