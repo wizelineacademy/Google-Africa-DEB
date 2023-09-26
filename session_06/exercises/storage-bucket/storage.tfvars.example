@@ -1,0 +1,5 @@
+project_id  = "project_id"
+location    = "US"
+region      = "us-east1"
+zone        = "us-east1-b"
+bucket_name = "your-bucket-name"
