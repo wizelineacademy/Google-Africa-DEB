@@ -1,5 +1,5 @@
-project_id  = "keen-diode-400001"
+project_id  = "project_id"
 location    = "US"
 region      = "us-east1"
 zone        = "us-east1-b"
-bucket_name = "africa-deb-bucket-second"
+bucket_name = "your-bucket-name"
